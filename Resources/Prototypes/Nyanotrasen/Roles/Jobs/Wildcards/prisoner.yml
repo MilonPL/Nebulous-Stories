@@ -10,9 +10,9 @@
   icon: "JobIconPrisoner"
   supervisors: job-supervisors-security
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 21600
+    # - !type:DepartmentTimeRequirement # NS - No playtime requirement
+    #   department: Security
+    #   time: 21600
 
 - type: startingGear
   id: PrisonerGear

@@ -5,8 +5,8 @@
   playTimeTracker: JobCargoTechnician
   startingGear: CargoTechGear
   requirements:
-  - !type:OverallPlaytimeRequirement # DeltaV
-    time: 3600 # 1 hr
+  # - !type:OverallPlaytimeRequirement # DeltaV
+  #   time: 3600 # 1 hr
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
   access:
